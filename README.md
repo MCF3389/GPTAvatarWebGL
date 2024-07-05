@@ -10,6 +10,16 @@ In order to get it to run you need to build/install a bit differently than in th
 - Buy, download, and install Microphone Pro for WebGL, https://assetstore.unity.com/packages/tools/input-management/microphone-pro-webgl-mobiles-desktop-79989
 - Put the config.txt in another folder than in Seth Robinson's version:
    -> put it in the folder Assets\Resources\
+- Now click on "Build settings" and choose android -> click on build
+- The resulting folder should look like this:
+  ![grafik](https://github.com/MCF3389/GPTAvatarWebGL/assets/29815773/b7854aee-2a8f-416b-aebd-153b78ec8d32)
+- It can be used on your own webpage or on itch.io if you do not want to host it yourself
+
+## Check out the webversion
+- If you want to test the webversion, go on: https://okapilab.itch.io/gptavatartest2, the password is: webtest!
+- Click on "Run tool" and wait, it can take between 10 and 30 seconds
+- Make sure to give microphone permissions
+- The webversion should then work in your webbrowser! :)
 
 ## Using GPTAvatar for research and collaboration opportunities
 If you use GPTAvatar for psychological/educational research, please either cite our article 
