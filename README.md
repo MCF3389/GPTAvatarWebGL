@@ -1,10 +1,9 @@
-
 # GPTAvatar: 3D AI Virtual Chatbot made in Unity - Webversion
-
-This is a WebGL version of SethRobinson's GPTAvatar:
+## Readme of this version
+This is a WebGL version of SethRobinson's wonderful software GPTAvatar:
 https://github.com/SethRobinson/GPTAvatar
 I modified this version to allow use in Webbrowsers.
-In order to get it to run you need to build/install a bit differently than in the original version
+In order to get it to run you need to build/install a bit differently than in the original version:
 - Buy, download, and install SALSA for lipsync, https://assetstore.unity.com/packages/tools/animation/salsa-lipsync-suite-148442
 - Buy, download, and install Amplitude, https://assetstore.unity.com/packages/tools/audio/amplitude-for-webgl-111277
 - Install the free Amplitude SALSA addon, https://assetstore.unity.com/packages/tools/audio/amplitude-for-webgl-111277
@@ -12,6 +11,13 @@ In order to get it to run you need to build/install a bit differently than in th
 - Put the config.txt in another folder than in Seth Robinson's version:
    -> put it in the folder Assets\Resources\
 
+## Using GPTAvatar for research and collaboration opportunities
+If you use GPTAvatar for psychological/educational research, please either cite our article 
+http://www.dx.doi.org/10.3389/feduc.2024.1416307 or Seth Robinson's github repository.
+If you need more code modification or want to collaborate for scientific purposes, please reach out to Maximilian C. Fink (maximilian.fink@yahoo.com).
+I'm always happy to help and conduct research together :)
+
+# Orginal Readme of GPTAVatar
 License:  BSD style attribution, see [LICENSE.md](LICENSE.md)
 
 This is a technology test that uses APIs from OpenAI, ElevenLabs, and Google to allow a 3D AI character to converse with using a microphone.
@@ -33,7 +39,7 @@ Note:  The "copy" button puts the dialog into the system clipboard, useful to ge
 
 
 
-# Running it
+## Running it
 
  * Download [GPTAvatar (Windows, 300 MB)](https://www.rtsoft.com/files/GPTAvatar_Windows.zip) and unzip it somewhere
  * Rename config_template.txt to config.txt
@@ -45,9 +51,7 @@ Note:  The "copy" button puts the dialog into the system clipboard, useful to ge
 
  WARNING: These APIs cost real money to use, so watch out.  The ElevenLabs voices are probably the most pricey thing of all (but damn they sound real!), so consider switching to using Google's TTS instead to save money, just edit the config.txt for that character. The "teacher" is already set to use Google as Elevenlabs can't do Japanese.
 
-
-
-# Building from this github source
+## Building from this github source
 
 * Requires Unity 2022.2+
 * Open the scene "Main" and click play to run, it will give errors
