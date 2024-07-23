@@ -6,14 +6,24 @@ I modified this version to allow use in Webbrowsers.
 In order to get it to run you need to build/install a bit differently than in the original version:
 - Buy, download, and install SALSA for lipsync, https://assetstore.unity.com/packages/tools/animation/salsa-lipsync-suite-148442
 - Buy, download, and install Amplitude, https://assetstore.unity.com/packages/tools/audio/amplitude-for-webgl-111277
-- Install the free Amplitude SALSA addon, https://crazyminnowstudio.com/posts/salsa-lipsync-in-webgl-with-amplitude/
+- Install the free Amplitude SALSA addon, https://crazyminnowstudio.com/posts/salsa-lipsync-in-webgl-with-amplitude/ 
+-> you will have to enter your invoice/order number, then download and import "AmplitudeSALSA (for SALSA LipSync v2) v2.0.0 (beta)"
 - Buy, download, and install Microphone Pro for WebGL, https://assetstore.unity.com/packages/tools/input-management/microphone-pro-webgl-mobiles-desktop-79989
 - Put the config.txt in another folder than in Seth Robinson's version:
    -> put it in the folder Assets\Resources\
-- Now click on "Build settings" and choose android -> click on build
+- Now click on "Build settings" and choose under "Platform" "WebGL"
+- Make the following adjustments to settings
+- Asset Import Overrides -> Max 1024
+- Player Settings -> Quality -> Rende Pipeline Asset -> URP Performant
+- Player Settings -> Player -> Publishing Settings -> Compression format -> Brotli
+- Player Settings -> Player -> WebGL Template -> Better minimal (if you cannot find this template here, download and install it https://seansleblanc.itch.io/better-minimal-webgl-template) 
+
+  Now click on "Build settings" -> click on build
 - The resulting folder should look like this:
   ![grafik](https://github.com/MCF3389/GPTAvatarWebGL/assets/29815773/b7854aee-2a8f-416b-aebd-153b78ec8d32)
 - It can be used on your own webpage or on itch.io if you do not want to host it yourself
+- If you want to host it on itch.io zip click on the folder and zip the full folder, upload that zip file! :)
+
 
 ## Check out the webversion
 - If you want to test the webversion, go on: https://okapilab.itch.io/gptavatartest2, the password is: webtest!
