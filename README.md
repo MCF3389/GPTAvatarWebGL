@@ -6,7 +6,7 @@ I modified this version to allow use in Webbrowsers.
 In order to get it to run you need to build/install a bit differently than in the original version:
 - Buy, download, and install SALSA for lipsync, https://assetstore.unity.com/packages/tools/animation/salsa-lipsync-suite-148442
 - Buy, download, and install Amplitude, https://assetstore.unity.com/packages/tools/audio/amplitude-for-webgl-111277
-- Install the free Amplitude SALSA addon, https://assetstore.unity.com/packages/tools/audio/amplitude-for-webgl-111277
+- Install the free Amplitude SALSA addon, https://crazyminnowstudio.com/posts/salsa-lipsync-in-webgl-with-amplitude/
 - Buy, download, and install Microphone Pro for WebGL, https://assetstore.unity.com/packages/tools/input-management/microphone-pro-webgl-mobiles-desktop-79989
 - Put the config.txt in another folder than in Seth Robinson's version:
    -> put it in the folder Assets\Resources\
