@@ -37,7 +37,12 @@ http://www.dx.doi.org/10.3389/feduc.2024.1416307 or Seth Robinson's github repos
 If you need more code modification or want to collaborate for scientific purposes, please reach out to Maximilian C. Fink (maximilian.fink@yahoo.com).
 I'm always happy to help and conduct research together :)
 
-# Orginal Readme of GPTAVatar
+# Other versions
+There is a multi-player version of GPTAvatar, allowing multiple users to join a 
+meeting and talk together via voice chat and with one avatar.
+https://github.com/walterlars/Bachelorthesis-GPTAvatar/tree/main
+
+# Orginal Readme of GPTAVatar by Seth Robinson
 License:  BSD style attribution, see [LICENSE.md](LICENSE.md)
 
 This is a technology test that uses APIs from OpenAI, ElevenLabs, and Google to allow a 3D AI character to converse with using a microphone.
